@@ -141,7 +141,7 @@
 
     assert(logDirPath != nil);
     
-    return [logDirPath stringByAppendingPathComponent:kZendeskFileUploadName];
+    return [logDirPath stringByAppendingPathComponent:@"TestName"];
 }
 
 - (void)setupFromPreferences
