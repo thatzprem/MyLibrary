@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PodTest"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Testing cocopods asdfasdfasdf asdfa sd fas df  asd f asd f asd f as d fasd f as df asd"
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/thatzprem/PodTest.git", :commit => "183a7674c2b49296c313e043cfc16927c6b92517" }
+  s.source       = { :git => "https://github.com/thatzprem/PodTest.git", :commit => "183a7674c2b49296c313e043cfc16927c6b92517",:tag => '0.0.2' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
